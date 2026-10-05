@@ -1,10 +1,9 @@
 """
 change_requests.py
 --------------------
-Models the posting's "execute routine data maintenance requests, creating
-or updating records according to established procedures and service
-levels" and "document data maintenance activities and report on the
-status of assigned tasks" tasks.
+Models routine data maintenance requests (creating or updating records
+according to established procedures and service levels) and documents
+data maintenance activities and the status of assigned tasks.
 
 A ChangeRequest goes through an explicit state machine (SUBMITTED ->
 VALIDATED -> APPLIED, or REJECTED at the validation step) rather than

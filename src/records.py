@@ -1,7 +1,7 @@
 """
 records.py
 ----------
-The three master data object types this posting names explicitly:
+The three master data object types:
 customer, vendor, and material. Modeled with the fields a real SAP-style
 master data governance process actually cares about — not a generic
 "name/id" toy model, but the specific fields duplicate-detection and
@@ -9,8 +9,8 @@ business-rule validation need (tax ID, address, payment terms, unit of
 measure, etc.), since those are exactly where real master-data quality
 problems show up.
 
-This is a SYNTHETIC domain model, not read from or connected to any real
-ERP/SAP system — see the project README for the full disclosure.
+This is a SYNTHETIC domain model, not read from or connected to an
+ERP/SAP system.
 """
 
 from dataclasses import dataclass, field

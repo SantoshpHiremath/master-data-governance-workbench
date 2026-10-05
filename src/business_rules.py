@@ -3,9 +3,8 @@ business_rules.py
 ------------------
 Documented master-data business rules, expressed as small, independently
 testable, named functions rather than inline validation scattered across
-the codebase. This directly models the posting's "help document data
-standards, business rules, and process workflows for master data
-objects" task: each rule below IS the documentation, in a form a
+the codebase. This documents data standards, business rules, and process
+workflows for master data objects: each rule below IS the documentation, in a form a
 governance meeting could review line by line, not a separate Word
 document that drifts out of sync with the code.
 

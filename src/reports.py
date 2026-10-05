@@ -1,8 +1,7 @@
 """
 reports.py
 ----------
-Assembles the "predefined reports" the posting names: a data-quality
-report combining duplicate findings and business-rule violations across
+Assembles the data-quality report, combining duplicate findings and business-rule violations across
 all three master data object types, in one place — what a data steward
 would actually pull up before a governance meeting.
 """

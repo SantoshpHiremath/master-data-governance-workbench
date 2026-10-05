@@ -1,9 +1,8 @@
 """
 duplicate_detection.py
 -----------------------
-The posting's "support data quality initiatives by running predefined
-reports to identify duplicates, inconsistencies, or incomplete data"
-task, applied to customer and vendor records.
+Data quality reporting that identifies duplicates, inconsistencies, or
+incomplete data, applied to customer and vendor records.
 
 Real master-data duplicates are rarely exact-string matches — "Muller
 GmbH" vs. "Müller GmbH" vs. "MUELLER GMBH" are very likely the same
